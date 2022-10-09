@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es2015"],
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types/"
+    ],
+    "types": [
+      "jest",
+      "node",
+    ],
+    "declaration": true,
+  },
+  "include": ["*"],
+}
